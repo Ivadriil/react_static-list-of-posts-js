@@ -1,6 +1,8 @@
+import './CommentInfo.scss';
+
 export const CommentInfo = ({ comment }) => (
   <div className="CommentInfo">
-    <div key={comment.id} className="CommentInfo__title">
+    <div className="CommentInfo__title">
       <strong className="CommentInfo__name">{comment.name}</strong>
       {' by '}
 
